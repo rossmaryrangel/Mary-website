@@ -320,20 +320,48 @@ export default defineConfig({
       },
       {
         format: "md",
-        label: "biographie",
+        label: "Biographie",
         name: "biographie",
-        path: "content/biographie",
+        path: "content/about",
         frontmatterFormat: "yaml",
         match: {
           include: "**/*",
         },
         fields: [
           {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+          },
+          {
+            type: "string",
+            name: "heading",
+            label: "Heading",
+          },
+          {
             type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
+            name: "body", //  This is now for the *main body* content
+            label: "Main Content Body",
+            description: "This is the main markdown body content that goes *below* the frontmatter",
+            isBody: true, // isBody: true is correctly set on the main body field
+          },
+          {
+            type: "string",
+            name: "expertise_title",
+            label: "Expertise Title",
+          },
+          {
+            type: "string", // Use string type for items in expertise_sectors list
+            name: "expertise_sectors",
+            label: "Expertise Sectors",
+            list: true, // This field is a list
           },
         ],
       },
