@@ -228,7 +228,7 @@ export default defineConfig({
         format: "toml",
         label: "Configuration",
         name: "configuration",
-        path: ".",
+        path: "/",
         frontmatterFormat: "yaml",
         ui: {
           allowedActions: {
