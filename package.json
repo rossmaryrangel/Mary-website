@@ -1,0 +1,27 @@
+{
+  "name": "mary-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErielCruz/Mary-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErielCruz/Mary-website/issues"
+  },
+  "homepage": "https://github.com/ErielCruz/Mary-website#readme",
+  "description": "",
+  "dependencies": {
+    "tinacms": "^2.6.2"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.8.2",
+    "@types/node": "^22.13.1"
+  }
+}

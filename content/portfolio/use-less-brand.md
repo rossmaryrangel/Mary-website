@@ -1,11 +1,17 @@
 ---
-title: "USE-LESS BRAND"
-date: 2019-12-23T15:58:10+06:00
+title: USE-LESS BRAND
+date: 2019-12-23T09:58:10.000Z
 type: portfolio
-image: "images/projects/project-thumb-one.jpg"
-category: ["UI UX"]
-project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
+image: images/projects/project-thumb-one.jpg
+category:
+  - UI UX
+project_images:
+  - images/projects/project-details-image-one.jpg
+  - images/projects/project-details-image-two.jpg
+_template: portfolio
 ---
+
+
 
 The “Seamless Watch” watch has all the features that users expect in a digital watch, and some unusual features.
 

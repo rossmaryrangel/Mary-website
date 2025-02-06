@@ -1,10 +1,13 @@
 ---
-title: "The 10 Biggest Product Stories of 2019"
-date: 2019-12-24T12:58:17+06:00
+title: The 10 Biggest Product Stories of 2019
+date: 2019-12-24T06:58:17.000Z
 image: images/blog/blog-post-04.jpg
 feature_image: images/blog/blog-details-image.jpg
 author: Alexender Schoitiz
+_template: blog_post
 ---
+
+
 ### Black Lines brand identity, by & Smith
 
 Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.

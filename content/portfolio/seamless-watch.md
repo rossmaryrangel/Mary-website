@@ -1,11 +1,17 @@
 ---
-title: "SEAMLESS WATCH"
-date: 2019-12-23T15:55:44+06:00
+title: SEAMLESS WATCH
+date: 2019-12-23T09:55:44.000Z
 type: portfolio
-image: "images/projects/project-thumb-three.jpg"
-category: ["REBRAND"]
-project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
+image: images/projects/project-thumb-three.jpg
+category:
+  - REBRAND
+project_images:
+  - images/projects/project-details-image-one.jpg
+  - images/projects/project-details-image-two.jpg
+_template: portfolio
 ---
+
+
 
 The “Seamless Watch” watch has all the features that users expect in a digital watch, and some unusual features.
 
