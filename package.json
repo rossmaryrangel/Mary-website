@@ -17,11 +17,7 @@
   },
   "homepage": "https://github.com/ErielCruz/Mary-website#readme",
   "description": "",
-  "dependencies": {
-    "tinacms": "^2.6.2"
-  },
   "devDependencies": {
-    "@tinacms/cli": "^1.8.2",
     "@types/node": "^22.13.1"
   }
 }
