@@ -16,6 +16,20 @@
             <img src="{{ . | absURL }}" alt="project image">
             {{ end }}
           </div>
+
+          {{ if .Params.project_videos }}
+          <div class="site-project-single-video">
+            <h2>Videos</h2>
+            <div class="site-project-single-video-list">
+              {{ range .Params.project_videos }}
+              <div class="site-project-single-video-item">
+                <iframe src="{{ . }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+
           {{ if .NextInSection }}
           <div class="site-project-single-action">
             <a href="{{.NextInSection.Permalink}}">
