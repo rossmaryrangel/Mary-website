@@ -7,9 +7,7 @@ image: "images/projects/guayoyo/Guayoyo_1.jpg"
 category: ["Musique du Monde"]
 project_images: ["images/projects/guayoyo/Guayoyo_2.jpg", "images/projects/guayoyo/Guayoyo_3.JPG"]
 project_videos:
-  - "https://www.youtube.com/embed/KCziOOC-niU?si=KsA1qjX7eCit9jcs"
-  - "https://www.youtube.com/embed/aMQN4-GYrPs?si=6Z-Z0M5wGM4eg2H1"
-  - "https://www.youtube.com/embed/FFmP576VVss?si=1ul8zDL5CesQSJo1"
+  - "https://www.youtube.com/embed/0oymxIIMruA?si=WnCJEOUYmf0Obf3H"
 ---
 
-L'Ensemble Miranda est un groupe instrumental né de la rencontre de trois musiciens aux horizons variés. La flûte traversière, le cuatro et la contrebasse se réunissent pour offrir une musique largement inspirée du répertoire traditionnel vénézuélien, tout en intégrant d'autres influences telles que la mélodie française, la musique de chambre et des éléments de la musique populaire d'Amérique latine.
+Guayoyo Project est un groupe instrumental qui fusionne la musique vénézuélienne avec des sonorités du monde, explorant le joropo, le jazz et des influences européennes, latines et contemporaines. Depuis différentes villes d’Europe, nous portons dans nos instruments l’essence de la diaspora vénézuélienne, créant un son qui relie tradition et modernité. Notre proposition musicale est un dialogue où chaque instrument est une voix, chaque morceau une histoire, et chaque concert une rencontre entre les cultures.

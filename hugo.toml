@@ -16,7 +16,7 @@ summarylength = 25
     url     = "about"
     weight  = 2
   [[menu.nav]]
-    name    = "Portfolio"
+    name    = "Projets"
     url     = "portfolio"
     weight  = 3
   [[menu.nav]]
@@ -84,11 +84,8 @@ summarylength = 25
 
   [params.portfolio]
     enable    = true
-    title     = "OUR RECENT WORKS"
-    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    title     = "Projets"
     view_project = "En savoir plus"
-    more_works = "MORE WORKS"
-    scroll_down = "scroll down"
 
   [params.call_to_action]
     enable              = true
