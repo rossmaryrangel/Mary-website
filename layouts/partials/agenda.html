@@ -1,0 +1,38 @@
+{{/* Agenda list partial */}}
+{{/* Expects a sorted list of event pages as context (.) */}}
+<section class="site-events" id="events">
+  <div class="container">
+    <div class="row">
+      {{ range . }}
+      <div class="col-lg-6 col-md-10 mx-auto mb-4"> 
+        <div class="site-event-item">
+          <h3>{{ .Title }}</h3>
+          <p class="event-details">
+            {{/* Use .Date for the date from front matter, format it */}}
+            <strong>Date:</strong> {{ .Date.Format "January 2, 2006" }}<br>
+            {{/* Check and display time */}}
+            {{ with .Params.time }}<strong>Heure:</strong> {{ . }}<br>{{ end }}
+            {{/* Check and display location */}}
+            {{ with .Params.location }}<strong>Adresse:</strong> {{ . }}{{ end }}
+          </p>
+          <div class="event-content">{{ .Content }}</div>
+
+          {{/* Add this block to check for the parameter and display the button */}}
+          {{ if .Params.show_contact_button }}
+          <div class="event-contact-button mt-3"> {{/* Added margin-top for spacing */}}
+            {{/* Change btn-outline-primary to btn-primary */}}
+            <a href="{{ "/contact" | absURL }}" class="btn btn-sm btn-primary">Contactez-moi</a> 
+          </div>
+          {{ end }}
+          {{/* End of added block */}}
+
+        </div>
+      </div>
+      {{ else }}
+      <div class="col-12">
+        <p>No upcoming events.</p> {{/* Message if no events found */}}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

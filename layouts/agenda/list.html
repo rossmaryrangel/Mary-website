@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{/* Add inline style for top padding */}}
+<section class="site-section page-content-section" style="padding-top: 120px;"> {{/* Adjust 100px as needed */}}
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {{/* Hardcoded title */}}
+        <h1>Agenda</h1>
+        <br>
+        {{/* Optional: Add a hardcoded description paragraph here if you want one */}}
+        {{/* <p class="page-description mb-5">This is the events page description.</p> */}}
+
+        {{/* Remove the call to .Content as we are not using _index.md */}}
+        {{/* {{ .Content }} */}}
+
+        {{/* Get pages for this section and sort them by date ascending (soonest first) */}}
+        {{ $sortedEvents := .Pages.ByDate }}
+
+        {{/* Call the partial to render the list of events, passing the sorted list */}}
+        {{ partial "agenda.html" $sortedEvents }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

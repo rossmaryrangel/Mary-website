@@ -24,9 +24,13 @@ summarylength = 25
     url     = "enseignement"
     weight  = 4
   [[menu.nav]]
-    name    = "Get in touch"
-    url     = "contact"
+    name    = "Agenda"
+    url     = "agenda"
     weight  = 5
+  [[menu.nav]]
+    name    = "Contactez-moi"
+    url     = "contact"
+    weight  = 6
 
 # Site Params
 [params]
@@ -82,7 +86,7 @@ summarylength = 25
     enable    = true
     title     = "OUR RECENT WORKS"
     subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
-    view_project = "view project"
+    view_project = "En savoir plus"
     more_works = "MORE WORKS"
     scroll_down = "scroll down"
 
@@ -112,6 +116,9 @@ summarylength = 25
       [[params.footer.sitemap.link]]
         name = "Projects"
         url  = "portfolio"
+      [[params.footer.sitemap.link]]
+        name = "Agenda"
+        url  = "agenda"
       [[params.footer.sitemap.link]]
         name = "Contact"
         url  = "contact"
