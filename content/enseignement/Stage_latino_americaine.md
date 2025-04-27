@@ -1,10 +1,10 @@
 ---
-title: Stage de de la musique latino-américaine
+title: Stage de musique latino-américaine
 date: 2025-02-05T23:00:00.000Z
 type: enseignement
 weight: 1
 image: "images/enseignement/stage_latino/stage_1.JPG"
-category: ["Musique du Monde"]
+category: ["Cours collectifs"]
 project_images: ["images/enseignement/stage_latino/stage_flags.PNG", "images/enseignement/stage_latino/stage_2.jpg", "images/enseignement/stage_latino/stage_3.jpg"]
 ---
 
