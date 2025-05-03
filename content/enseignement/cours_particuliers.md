@@ -3,7 +3,7 @@ title: Cours particuliers de flûte traversière
 date: 2025-04-05T23:00:00.000Z
 type: enseignement
 weight: 1
-image: "images/enseignement/cours_particuliers/cours_1.JPG"
+image: /images/enseignement/cours_particuliers/cours_1.JPG
 category: ["Cours particuliers"]
 ---
 

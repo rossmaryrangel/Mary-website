@@ -3,9 +3,12 @@ title: Stage de musique latino-américaine
 date: 2025-02-05T23:00:00.000Z
 type: enseignement
 weight: 1
-image: "images/enseignement/stage_latino/stage_1.JPG"
+image: /images/enseignement/stage_latino/stage_1.JPG
 category: ["Cours collectifs"]
-project_images: ["images/enseignement/stage_latino/stage_flags.PNG", "images/enseignement/stage_latino/stage_2.jpg", "images/enseignement/stage_latino/stage_3.jpg"]
+project_images: 
+  - /images/enseignement/stage_latino/stage_flags.PNG
+  - /images/enseignement/stage_latino/stage_2.jpg
+  - /images/enseignement/stage_latino/stage_3.jpg
 ---
 
 Ce stage de musique latino-américaine est une immersion musicale ouverte à tous les enfants, quel que soit leur niveau, et accessible à tous les instruments. Créé en 2023 par Rossmary Rangel, ce projet met en lumière la richesse et la diversité des musiques d’Amérique latine à travers un travail intensif d’une semaine. Rossmary est accompagnée de deux intervenants : Simon Suarez à la clarinette et Josué Omaña à la trompette ainsi qu’aux arrangements musicaux.
