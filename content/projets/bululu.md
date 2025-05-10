@@ -9,4 +9,9 @@ project_images: ["/images/projects/bululu/bululu_1.jpg", "/images/projects/bulul
 ---
 
 A propos de notre collectif:
-...existing content...
+
+“ Au Venezuela, un « bululú », c’est le mot utilisé pour désigner un vacarme provoqué par un attroupement mouvementé de personnes bruyantes, turbulentes, agitées...  Ce collectif composé de jeunes musiciens de tous horizons, mais tous passionnés de la musique vénézuélienne traditionnelle vous fera danser et découvrir les rythmes endiablés de ce beau pays !
+
+Laissez-vous transporter à travers ses différentes régions, des Andes aux Caraïbes, en passant par les plaines de l'Orinoco, au son des percussions et voix polyphoniques, mêlés aux instruments traditionnels  que sont le cuatro et la bandola. 
+
+Une découverte énergique et revigorante"

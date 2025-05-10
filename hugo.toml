@@ -17,7 +17,7 @@ summarylength = 25
     weight  = 2
   [[menu.nav]]
     name    = "Projets"
-    url     = "portfolio"
+    url     = "projets"
     weight  = 3
   [[menu.nav]]
     name    = "Enseignement"
@@ -78,11 +78,11 @@ summarylength = 25
     heading               = "Rossmary Rangel"
     tagline               = ""
     primary_button        = "Projets"
-    primary_button_url    = "portfolio"
+    primary_button_url    = "projets"
     secondary_button      = "Contactez-moi"
     secondary_button_url  = "contact"
 
-  [params.portfolio]
+  [params.projets]
     enable    = true
     title     = "Projets"
     view_project = "En savoir plus"
@@ -94,7 +94,7 @@ summarylength = 25
     primary_button      = "Submit Query"
     primary_button_url  = "contact"
     secondary_button    = "Not Convinced"
-    secondary_button_url = "portfolio"
+    secondary_button_url = "projets"
 
   [params.footer]
     params.footer.qr_print = false
@@ -112,7 +112,7 @@ summarylength = 25
         url  = "about"
       [[params.footer.sitemap.link]]
         name = "Projects"
-        url  = "portfolio"
+        url  = "projets"
       [[params.footer.sitemap.link]]
         name = "Agenda"
         url  = "agenda"
