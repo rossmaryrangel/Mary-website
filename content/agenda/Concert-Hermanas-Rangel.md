@@ -1,21 +1,13 @@
 ---
-title: Concert Hermanas Rangel
+title: Concert Hermanas Rangel - La Cayapa
 date: 2025-07-23T22:00:00.000Z
 time: '19:00'
-location: La Cayapa. París 12
+location: París 12
 weight: 1
 ---
 
 ¡Por primera vez presentamos un concierto como Hermanas Rangel! Después de 34 años de música, finalmente nos reunimos bajo un mismo nombre para compartirles lo que más amamos 🎶
 
-🎻 Con invitados especiales:
-
-🎼 Marcel Moncourt – cuatro
-
-🎸 Daniel Uzcátegui – bajo
+Con invitados especiales: Marcel Montcourt – cuatro y  Daniel Uzcátegui – bajo
 
 Este concierto será una antesala mágica al Stage de Música Venezolana,
-
-¡y queremos que nos acompañen! 🌟
-
-🎤 Vengan a escucharnos, a celebrar y a disfrutar esta nueva etapa juntas como Hermanas Rangel 🎶💃
