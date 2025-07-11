@@ -5,9 +5,6 @@ type: projets
 weight: 1
 image: /images/0B231F89-B574-49C0-9534-B3293B17ACB4.jpeg
 category:
-  - ''
-  - ''
-  - ''
   - Musique du Monde
 project_images:
   - /images/projects/guayoyo/Guayoyo_2.jpg
