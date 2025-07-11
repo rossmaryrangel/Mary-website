@@ -3,7 +3,7 @@ title: Guayoyo
 date: 2025-02-09T09:44:46.000Z
 type: projets
 weight: 1
-image: /images/Hermanas%20RANGEL-2.mp4
+image: /images/0B231F89-B574-49C0-9534-B3293B17ACB4.jpeg
 category:
   - ''
   - ''
