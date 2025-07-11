@@ -1,7 +1,7 @@
 ---
-title: "Guayoyo Project - Les jeudis latinos"
-date: "2025-06-19"
-time: "19:30"
-location: "Restaurant La Mère Lachaise - 78 bd de Ménilmontant, 75020 Paris"
-weight: 1 # Default weight
+title: Guayoyo Project - Les jeudis latinos
+date: 2025-06-19T00:00:00.000Z
+time: '19:30'
+location: "Restaurant La Mère\_Lachaise - 78 bd de Ménilmontant, 75020 Paris"
 ---
+
