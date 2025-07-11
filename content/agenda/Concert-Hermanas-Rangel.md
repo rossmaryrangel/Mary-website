@@ -2,7 +2,7 @@
 title: Concert Hermanas Rangel
 date: 2025-07-23T22:00:00.000Z
 time: '19:00'
-location: 13 rue Claude Declaen 75012
+location: 'La Cayapa. 13 rue Claude Declaen 75012 Paris '
 ---
 
 ¡Por primera vez presentamos un concierto como Hermanas Rangel! Después de 34 años de música, finalmente nos reunimos bajo un mismo nombre para compartirles lo que más amamos 🎶
