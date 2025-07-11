@@ -10,7 +10,7 @@ project_images:
   - /images/projects/guayoyo/Guayoyo_2.jpg
   - /images/projects/guayoyo/Guayoyo_3.JPG
 project_videos:
-  - 'https://youtu.be/K80hpw9Mw10?si=jvjJQj7HTwr-8KW_'
+  - 'https://www.youtube.com/embed/K80hpw9Mw10?si=N-gY0_hBzAzeHgg_'
   - 'https://www.youtube.com/embed/0oymxIIMruA?si=WnCJEOUYmf0Obf3H'
 ---
 
