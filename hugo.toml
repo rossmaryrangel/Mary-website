@@ -28,9 +28,13 @@ summarylength = 25
     url     = "agenda"
     weight  = 5
   [[menu.nav]]
+    name    = "Galerie"
+    url     = "galerie"
+    weight  = 6
+  [[menu.nav]]
     name    = "Contactez-moi"
     url     = "contact"
-    weight  = 6
+    weight  = 7
 
 # Site Params
 [params]
