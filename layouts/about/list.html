@@ -1,24 +1,37 @@
 {{ define "main" }}
 
-<section class="site-about-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="site-about-wrapper">
-          <div class="site-about-company">
-            <h1>
-              {{ .Params.heading }}
-            </h1>
-          </div>
-          <div class="site-about-description">
-            <p>
-              {{ .Content }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+<header class="site-about-header" style="margin-top: 60px; margin-bottom: 28px;">
+  <div class="container" style="text-align: center;">
+    <h1>{{ .Params.heading }}</h1>
   </div>
+</header>
+
+<section class="site-about-content" style="max-width: 900px; margin: 0 auto; padding: 0 16px;">
+  {{ with .Params.image }}
+    <div style="display: flex; justify-content: center;">
+      <img src="{{ . }}" alt="About image" style="width: 100%; max-width: 500px; height: auto; object-fit: contain; margin-bottom: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
+    </div>
+  {{ end }}
+  <div class="site-about-content-text">
+    {{ .Content | safeHTML }}
+  </div>
+  <style>
+    .site-about-content img {
+      display: block;
+      margin: 24px auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .site-about-content-text,
+    .site-about-content-text p,
+    .site-about-content-text ul,
+    .site-about-content-text li {
+      font-size: 1.35rem;
+      line-height: 1.8;
+    }
+  </style>
 </section>
 
 <!-- {{ partial "call-to-action.html" . }} -->

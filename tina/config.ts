@@ -215,9 +215,53 @@ export default defineConfig({
             label: "Content", // The main content of the page
             isBody: true,
           },
-          // Add other fields from your content/about/_index.md if needed
         ],
       },
+      {
+        name: "galerie",
+        label: "Galerie",
+        path: "content/galerie",
+        format: "md",
+        match: {
+          // Only include the _index file in this collection
+          include: "_index",
+        },
+        ui: {
+          // Prevent users from creating or deleting this page
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "image",
+            name: "images",
+            label: "Images",
+            list: true,
+          },
+          {
+            type: "string",
+            name: "videos",
+            label: "Video Links",
+            description: "YouTube embed URLs",
+            list: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+      }
     ],
   },
 });
