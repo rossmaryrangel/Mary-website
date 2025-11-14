@@ -1,5 +1,6 @@
 ---
 title: Aquele Baïle
+date: 2025-11-08T23:00:00.000Z
 type: projets
 weight: 1
 image: /images/IMG_8063.JPEG
