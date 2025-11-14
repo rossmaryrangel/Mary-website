@@ -1,7 +1,6 @@
 ---
 title: Galerie
 images:
-  - /images/95bf8e08-012a-4d47-97f8-da75cbd674c2.jpeg
   - /images/IMG_7890.jpeg
   - /images/6D6027DB-8251-446F-A720-39C61D571B0D.jpeg
   - /images/5D86D782-2771-4966-8721-818A30DB468A.jpeg
