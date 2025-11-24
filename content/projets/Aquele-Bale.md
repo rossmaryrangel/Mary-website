@@ -1,5 +1,5 @@
 ---
-title: Aquele Baïle
+title: AqueleBaile
 date: 2025-11-08T23:00:00.000Z
 type: projets
 weight: 1
