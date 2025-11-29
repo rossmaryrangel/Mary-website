@@ -106,15 +106,19 @@ Main configuration is in `hugo.toml`. Key sections:
    ```yaml
    ---
    title: "Event Name"
-   date: "2025-06-01"
+   date: "2025-06-01"  # YYYY-MM-DD format
    time: "15:00"
    location: "Event Location"
-   show_contact_button: true
+   show_contact_button: true  # true for future events, false for past
    weight: 1
    ---
    
    Event description here...
    ```
+
+**Note**: Events are automatically separated into:
+- **Future Events**: Sorted by date (soonest first) with reservation buttons
+- **Past Events**: Sorted by date (most recent first) with identical formatting
 
 ## TinaCMS Integration
 

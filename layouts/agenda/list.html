@@ -13,11 +13,47 @@
         {{/* Remove the call to .Content as we are not using _index.md */}}
         {{/* {{ .Content }} */}}
 
-        {{/* Get pages for this section and sort them by date ascending (soonest first) */}}
-        {{ $sortedEvents := .Pages.ByDate }}
+        {{/* Get pages for this section and sort them by date */}}
+        {{ $allEvents := .Pages.ByDate }}
+        {{ $currentDate := now }}
+        
+        {{/* Separate future and past events */}}
+        {{ $futureEvents := slice }}
+        {{ $pastEvents := slice }}
+        
+        {{ range $allEvents }}
+          {{ if gt .Date $currentDate }}
+            {{ $futureEvents = $futureEvents | append . }}
+          {{ else }}
+            {{ $pastEvents = $pastEvents | append . }}
+          {{ end }}
+        {{ end }}
+        
+        {{/* Sort past events by date descending (most recent first) */}}
+        {{ $pastEvents = $pastEvents.ByDate.Reverse }}
 
-        {{/* Call the partial to render the list of events, passing the sorted list */}}
-        {{ partial "agenda.html" $sortedEvents }}
+        {{/* Call the partial to render future events */}}
+        {{ if $futureEvents }}
+          <div class="future-events-section">
+            <h2 class="mb-4">Événements à venir</h2>
+            {{ partial "agenda.html" $futureEvents }}
+          </div>
+        {{ end }}
+        
+        {{/* Call the partial to render past events */}}
+        {{ if $pastEvents }}
+          <div class="past-events-section mt-5">
+            <h2 class="mb-4">Événements passés</h2>
+            {{ partial "agenda-past.html" $pastEvents }}
+          </div>
+        {{ end }}
+        
+        {{/* Show message if no events at all */}}
+        {{ if not (or $futureEvents $pastEvents) }}
+          <div class="col-12">
+            <p class="text-center">Aucun événement à afficher pour le moment.</p>
+          </div>
+        {{ end }}
       </div>
     </div>
   </div>

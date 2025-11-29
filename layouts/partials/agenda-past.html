@@ -1,6 +1,6 @@
-{{/* Agenda list partial */}}
-{{/* Expects a sorted list of event pages as context (.) */}}
-<section class="site-events" id="events">
+{{/* Agenda past events partial - Exact same format as original */}}
+{{/* Expects a sorted list of past event pages as context (.) */}}
+<section class="site-events" id="past-events">
   <div class="container">
     <div class="row">
       {{ range . }}
@@ -17,24 +17,15 @@
           </p>
           <div class="event-content">{{ .Content }}</div>
 
-          {{/* Add this block to check for the parameter and display the button */}}
-          {{ if .Params.show_contact_button }}
-          <div class="event-contact-button mt-3"> {{/* Added margin-top for spacing */}}
-            {{/* Change btn-outline-primary to btn-primary */}}
-            <a href="{{ "/contact" | absURL }}" class="btn btn-sm btn-primary">Réserver</a> 
-          </div>
-          {{ end }}
-          {{/* End of added block */}}
+          {{/* No reservation button for past events, but keep same structure */}}
 
         </div>
       </div>
       {{ else }}
       <div class="col-12">
-        <p>Aucun événement à venir pour le moment.</p> {{/* Message if no events found */}}
+        <p>Aucun événement passé.</p> {{/* Message if no events found */}}
       </div>
       {{ end }}
     </div>
-  </div>
-</section>
   </div>
 </section>
