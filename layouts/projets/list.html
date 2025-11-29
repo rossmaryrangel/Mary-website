@@ -21,7 +21,9 @@
             <img src="{{ .Params.Image | absURL }}" alt="project-thumb">
           </div>
           <div class="site-project-item-content">
+            {{ if .Params.category }}
             <span>{{ delimit .Params.category ", " }}</span>
+            {{ end }}
             <h3>{{ .Title }}</h3>
              <!-- Update Params reference if needed -->
             <a href="{{ .Permalink }}" class="read-more">{{ .Site.Params.projets.view_project }}</a>

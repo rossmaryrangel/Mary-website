@@ -47,8 +47,8 @@ summarylength = 25
   # Meta data
   description = "Rossmary Rangel"
   author = "StaticMania"
-  # Google Analitycs
-  googleAnalitycsID = "Your ID"
+  # Google Analytics (replace with actual GA4 measurement ID)
+  googleAnalitycsID = "G-XXXXXXXXXX"
   # We're using formspree.io for form handling, paste your formspree url below
   fabform  = "https://fabform.io/f/Zrr0MZi"
 
@@ -101,13 +101,12 @@ summarylength = 25
     secondary_button_url = "projets"
 
   [params.footer]
-    params.footer.qr_print = false
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
+      address = "Paris, France"
+      phone   = "+33 (0)X XX XX XX XX"
+      email   = "contact@rossmaryrangel.com"
     # Footer Sitemap
     [params.footer.sitemap]
       title   = "Sitemap"
@@ -137,7 +136,7 @@ summarylength = 25
         url  = "https://www.youtube.com/@GuayoyoProject"
     # Footer Service
     [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = "Rossmary Rangel:"
+        description = "Artiste musicienne<br>Enseignement musical<br>Projets culturels"
       [params.footer.back_to_top]
         description = "I want to <br> visit again"
