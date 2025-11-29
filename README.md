@@ -120,6 +120,55 @@ Main configuration is in `hugo.toml`. Key sections:
 - **Future Events**: Sorted by date (soonest first) with reservation buttons
 - **Past Events**: Sorted by date (most recent first) with identical formatting
 
+## Contact Form Configuration
+
+The site uses FabForm.io for contact form handling. Configuration is in `hugo.toml`:
+
+### Current Setup:
+```toml
+# Contact form endpoint (FabForm.io)
+fabform = "https://fabform.io/f/Zrr0MZi"
+
+# Contact form field labels (in hugo.toml)
+[params.contactForm]
+  placeholder_first_name = "First Name"
+  placeholder_last_name = "Last Name" 
+  placeholder_email = "Email"
+  placeholder_project_type = "Project Type"
+  placeholder_about_the_project = "About the Project"
+  send_message = "Send Message"
+```
+
+### To Set Up Contact Form:
+1. **Create FabForm.io Account**: Go to [fabform.io](https://fabform.io)
+2. **Create New Form**: Set up form fields to match the site
+3. **Get Form URL**: Replace `fabform` value in `hugo.toml`
+4. **Update Contact Info**: Edit `data/contact.yml` with real contact details
+
+### Contact Info (data/contact.yml):
+Currently contains placeholder data - update with real information:
+```yaml
+enable: true
+contactFormTitle: "CONTACT WITH ME"
+contactFormSubtitle: "Your contact subtitle here"
+mapTitle: "FIND US"
+mapSubtitle: "Location description"
+officeAddress1: "Real address here"
+officeAddress2: "Secondary address (optional)"
+mail1: "real-email@domain.com"
+mail2: "secondary-email@domain.com (optional)"
+phone1: "Real phone number"
+phone2: "Secondary phone (optional)"
+```
+
+### Form Fields:
+- **Prénom** (First Name) - Required
+- **Nom** (Last Name) - Required  
+- **Email** - Required
+- **Votre message** (Your message) - Optional
+
+The contact form opens submissions in a new tab and handles them via FabForm.io.
+
 ## TinaCMS Integration
 
 The site includes TinaCMS for user-friendly content editing:
