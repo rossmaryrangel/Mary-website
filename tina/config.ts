@@ -62,6 +62,18 @@ export default defineConfig({
             label: "Location",
           },
           {
+            type: "string",
+            name: "link_label",
+            label: "Link Label",
+            description: "Label for an optional link button (e.g. 'More info')",
+          },
+          {
+            type: "string",
+            name: "link_url",
+            label: "Link URL",
+            description: "Full URL for the link (include https://)",
+          },
+          {
             type: "number",
             name: "weight",
             label: "Weight (for ordering)",

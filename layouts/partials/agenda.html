@@ -4,27 +4,33 @@
   <div class="container">
     <div class="row">
       {{ range . }}
+      {{ $p := . }}
       <div class="col-lg-6 col-md-10 mx-auto mb-4"> 
         <div class="site-event-item">
-          <h3>{{ .Title }}</h3>
+          <h3>{{ $p.Title }}</h3>
           <p class="event-details">
             {{/* Use .Date for the date from front matter, format it */}}
-            <strong>Date:</strong> {{ .Date.Format "January 2, 2006" }}<br>
+            <strong>Date:</strong> {{ $p.Date.Format "January 2, 2006" }}<br>
             {{/* Check and display time */}}
-            {{ with .Params.time }}<strong>Heure:</strong> {{ . }}<br>{{ end }}
+            {{ with $p.Params.time }}<strong>Heure:</strong> {{ . }}<br>{{ end }}
             {{/* Check and display location */}}
-            {{ with .Params.location }}<strong>Adresse:</strong> {{ . }}{{ end }}
+            {{ with $p.Params.location }}<strong>Adresse:</strong> {{ . }}{{ end }}
           </p>
-          <div class="event-content">{{ .Content }}</div>
+          <div class="event-content">{{ $p.Content }}</div>
 
-          {{/* Add this block to check for the parameter and display the button */}}
-          {{ if .Params.show_contact_button }}
-          <div class="event-contact-button mt-3"> {{/* Added margin-top for spacing */}}
-            {{/* Change btn-outline-primary to btn-primary */}}
-            <a href="{{ "/contact" | absURL }}" class="btn btn-sm btn-primary">Réserver</a> 
+          {{/* Existing contact button */}}
+          {{ if $p.Params.show_contact_button }}
+          <div class="event-contact-button mt-3">
+            <a href="{{ "/contact" | absURL }}" class="btn btn-sm btn-primary">Réserver</a>
           </div>
           {{ end }}
-          {{/* End of added block */}}
+
+          {{/* Optional link button (added) */}}
+          {{ with $p.Params.link_url }}
+          <div class="event-link mt-3">
+            <a href="{{ . }}" class="btn btn-sm btn-outline-primary">{{ with $p.Params.link_label }}{{ . }}{{ else }}Plus d'infos{{ end }}</a>
+          </div>
+          {{ end }}
 
         </div>
       </div>

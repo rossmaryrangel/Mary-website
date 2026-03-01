@@ -5,4 +5,6 @@ time: "19:00" # Default time
 location: "" # Default location
 weight: 1 # Default weight
 draft: true # Start as draft
+link_label: "" # Label for optional link/button
+link_url: "" # URL for optional link/button
 ---
