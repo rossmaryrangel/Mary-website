@@ -1,5 +1,5 @@
 ---
-title: Guayoyo
+title: Guayoyo Project
 date: 2025-02-09T09:44:46.000Z
 type: projets
 weight: 1
