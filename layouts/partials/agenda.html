@@ -28,7 +28,8 @@
           {{/* Optional link button (added) */}}
           {{ with $p.Params.link_url }}
           <div class="event-link mt-3">
-            <a href="{{ . }}" class="btn btn-sm btn-outline-primary">{{ with $p.Params.link_label }}{{ . }}{{ else }}Plus d'infos{{ end }}</a>
+            <!-- changed to solid primary button so the label text is visible on white background -->
+            <a href="{{ . }}" class="btn btn-sm btn-primary">{{ with $p.Params.link_label }}{{ . }}{{ else }}Plus d'infos{{ end }}</a>
           </div>
           {{ end }}
 
