@@ -28,8 +28,10 @@
           {{/* Optional link button (added) */}}
           {{ with $p.Params.link_url }}
           <div class="event-link mt-3">
-            <!-- changed to solid primary button so the label text is visible on white background -->
-            <a href="{{ . }}" class="btn btn-sm btn-primary">{{ with $p.Params.link_label }}{{ . }}{{ else }}Plus d'infos{{ end }}</a>
+            <!-- explicit styling added to ensure background color is never white/transparent -->
+            <a href="{{ . }}" class="btn btn-sm btn-primary" style="background-color:#EAA4A4 !important;color:#fff !important;">
+              {{ with $p.Params.link_label }}{{ . }}{{ else }}Plus d'infos{{ end }}
+            </a>
           </div>
           {{ end }}
 
