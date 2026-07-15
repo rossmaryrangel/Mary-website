@@ -7,7 +7,7 @@ category:
   - ''
   - 'Musique classique, jazz, et musique vénézuélienne'
 project_videos:
-  - 'https://www.youtube.com/watch?v=XKpHxymNRr0&list=RDXKpHxymNRr0&start_radio=1'
+  - '<iframe width="560" height="315" src="https://www.youtube.com/embed/XKpHxymNRr0?si=wbLtGZt7_UgIdJwK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 ---
 
 Sous l'impulsion de Dominique Etiévant, 'ensemble Les Flûtes Enchanteuses a été créé en 2024 pour mettre en valeur les qualités de
