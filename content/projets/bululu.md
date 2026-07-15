@@ -10,10 +10,8 @@ project_images:
   - /images/projects/bululu/bululu_1.jpg
   - /images/projects/bululu/bululu_2.JPG
 project_videos:
-  - 'https://www.youtube.com/watch?v=wa0JrlHCzOY&list=RDwa0JrlHCzOY&start_radio=1'
   - 'https://www.youtube.com/watch?v=t4JcNp60_78&list=RDt4JcNp60_78&start_radio=1'
   - 'https://www.youtube.com/watch?v=VGYlP6o4fPo&list=RDVGYlP6o4fPo&start_radio=1'
-  - 'https://www.youtube.com/watch?v=8f2C_3Q7B7A&list=RD8f2C_3Q7B7A&start_radio=1'
 ---
 
 A propos de notre collectif:
