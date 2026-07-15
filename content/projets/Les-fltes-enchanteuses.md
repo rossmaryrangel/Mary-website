@@ -1,7 +1,8 @@
 ---
 title: Les flûtes enchanteuses
 type: projets
-image: /images/39A29476-B174-4918-ACFE-D0346ED6FD85.jpeg
+weight: -15
+image: /images/4DE0F60B-9DB6-4C28-A0DA-D75B4CC49BFB.jpeg
 category:
   - ''
   - 'Musique classique, jazz, et musique vénézuélienne'
