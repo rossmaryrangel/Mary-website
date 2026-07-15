@@ -2,7 +2,7 @@
 title: 'Collectif Bululú '
 date: 2025-04-27T09:44:46.000Z
 type: projets
-weight: 1
+weight: 2
 image: /images/projects/bululu/bululu_cover.jpg
 category:
   - Musique du Monde
