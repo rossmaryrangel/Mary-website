@@ -6,6 +6,3 @@ location: Théâtre de Verdure de Bécon 156 Bd Saint-Denis 92400 Courbevoie 924
 link_url: 'https://www.iledefrance.fr/tous-les-evenements/concert-trio-orinoco'
 ---
 
-Laissez-vous emporter par les couleurs du Venezuela :
-le Trio Orinoco vous invite à un voyage musical vibrant, à l’image du fleuve Orénoque.
-Portées par la voix et la flûte, les mélodies se mêlent au son chaleureux du cuatro vénézuélien et aux percussions, pour un répertoire entre traditions populaires et énergie festive.
