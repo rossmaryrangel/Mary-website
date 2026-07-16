@@ -7,7 +7,8 @@ image: /images/projects/bululu/bululu_cover.jpg
 category:
   - Musique du Monde
 project_images:
-  - ''
+  - /images/642718CE-E747-4310-BABE-7355813ACC36.jpeg
+  - /images/37493567-780C-4692-A3C5-D8162B13561C.jpeg
   - /images/projects/bululu/bululu_2.JPG
 project_videos:
   - 'https://www.youtube.com/embed/8f2C_3Q7B7A?si=AJgaNDUZttqFYhTE'
