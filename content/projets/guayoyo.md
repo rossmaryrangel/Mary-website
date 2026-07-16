@@ -3,7 +3,7 @@ title: Guayoyo Project
 date: 2025-02-09T09:44:46.000Z
 type: projets
 weight: 1
-image: /images/0B231F89-B574-49C0-9534-B3293B17ACB4.jpeg
+image: /images/0442C57B-33C4-4A98-9B33-53FF07C262AB.jpeg
 category:
   - Musique du Monde
 project_images:
