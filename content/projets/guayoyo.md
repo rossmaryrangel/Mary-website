@@ -7,7 +7,7 @@ image: /images/0442C57B-33C4-4A98-9B33-53FF07C262AB.jpeg
 category:
   - Musique du Monde
 project_images:
-  - /images/81B2EDA4-0776-4920-8606-20CAFDA72D70.jpeg
+  - /images/DE5AFA91-F765-4F59-8214-E000BADA1F81.jpeg
   - /images/7ACA69B1-69E2-424D-A645-F7EE87EABCBE.jpeg
   - /images/projects/guayoyo/Guayoyo_2.jpg
   - /images/projects/guayoyo/Guayoyo_3.JPG
