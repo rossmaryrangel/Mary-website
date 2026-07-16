@@ -10,14 +10,15 @@ project_images:
   - /images/projects/bululu/bululu_1.jpg
   - /images/projects/bululu/bululu_2.JPG
 project_videos:
-  - 'https://www.youtube.com/watch?v=t4JcNp60_78&list=RDt4JcNp60_78&start_radio=1'
-  - 'https://www.youtube.com/watch?v=VGYlP6o4fPo&list=RDVGYlP6o4fPo&start_radio=1'
+  - 'https://www.youtube.com/embed/8f2C_3Q7B7A?si=AJgaNDUZttqFYhTE'
+  - 'https://www.youtube.com/embed/FvLQMLbjz6w?si=6pheGI52HrYlLpXN'
+  - 'https://www.youtube.com/embed/FgzQAnB9b1k?si=81Ti4mknlrd9AILv" title="YouTube video player" frameborder='
 ---
 
 A propos de notre collectif:
 
-“ Au Venezuela, un « bululú », c’est le mot utilisé pour désigner un vacarme provoqué par un attroupement mouvementé de personnes bruyantes, turbulentes, agitées...  Ce collectif composé de jeunes musiciens de tous horizons, mais tous passionnés de la musique vénézuélienne traditionnelle vous fera danser et découvrir les rythmes endiablés de ce beau pays !
+Au Venezuela, un « bululú », c’est le mot utilisé pour désigner un vacarme provoqué par un attroupement mouvementé de personnes bruyantes, turbulentes, agitées...  Ce collectif composé de jeunes musiciens de tous horizons, mais tous passionnés de la musique vénézuélienne traditionnelle vous fera danser et découvrir les rythmes endiablés de ce beau pays !
 
 Laissez-vous transporter à travers ses différentes régions, des Andes aux Caraïbes, en passant par les plaines de l'Orinoco, au son des percussions et voix polyphoniques, mêlés aux instruments traditionnels  que sont le cuatro et la bandola.
 
-Une découverte énergique et revigorante"
+Une découverte énergique et revigorante
