@@ -2,7 +2,7 @@
 date: '2025-02-05T23:00:00.000Z'
 expertise_title: Biographie
 title: Biographie
-heading: Rossmary Rangel Flûtiste
+heading: Rossmary Rangel
 ---
 
 Diplômée d'une Licence en Musique à l'Université des Andes ainsi que du Diplôme d'État de Professeure de Musique du CEFEDEM de Normandie, Rossmary a débuté son parcours musical au sein d'El Sistema des Orchestres du Venezuela en tant que flûtiste classique.
