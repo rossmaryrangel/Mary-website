@@ -11,4 +11,4 @@ Parallèlement, elle s'est intéressée à la musique traditionnelle vénézuél
 
 Elle a suivi des masterclasses avec des flûtistes de renom tels que Philippe Bernold, Julien Beaudiment, Michel Moragues, Philippe Pierlot, Sabine Raynaud, Tara O'Connor, Gaspar Hoyos, Raimundo Pineda, Víctor Rojas, José García, entre autres. Actuellement, Rossmary réside à Paris, où elle enseigne la flûte au Conservatoire à Rayonnement Communal Gabriel Fauré aux Mureaux ainsi qu'au Conservatoire Départemental de Ville-d’Avray-Chaville. Elle est également directrice artistique de plusieurs projets de musique vénézuélienne, tels que Guayoyo Project, Collectif Bululú, Ensemble Miranda, Trio CARIBE, entre autres.
 
-![](/images/IMG_2222.jpg)
+![](/images/Image.jpeg)
