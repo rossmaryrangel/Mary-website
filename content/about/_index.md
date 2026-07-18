@@ -2,7 +2,7 @@
 date: '2025-02-05T23:00:00.000Z'
 expertise_title: Biographie
 title: Biographie
-heading: Rossmary Rangel MULTI-INSTRUMENTISTE
+heading: Rossmary Rangel Multi-instrumentiste
 ---
 
 Diplômée d'une Licence en Musique à l'Université des Andes ainsi que du Diplôme d'État de Professeure de Musique du CEFEDEM de Normandie, Rossmary a débuté son parcours musical au sein d'El Sistema des Orchestres du Venezuela en tant que flûtiste classique.
@@ -11,4 +11,4 @@ Parallèlement, elle s'est intéressée à la musique traditionnelle vénézuél
 
 Elle a suivi des masterclasses avec des flûtistes de renom tels que Philippe Bernold, Julien Beaudiment, Michel Moragues, Philippe Pierlot, Sabine Raynaud, Tara O'Connor, Gaspar Hoyos, Raimundo Pineda, Víctor Rojas, José García, entre autres. Actuellement, Rossmary réside à Paris, où elle enseigne la flûte au Conservatoire à Rayonnement Communal Gabriel Fauré aux Mureaux ainsi qu'au Conservatoire Départemental de Ville-d’Avray-Chaville. Elle est également directrice artistique de plusieurs projets de musique vénézuélienne, tels que Guayoyo Project, Collectif Bululú, Ensemble Miranda, Trio CARIBE, entre autres.
 
-![](</images/Red and White Clean Gardener YouTube Banner.png>)
+![](/images/IMG_2222.jpg)
