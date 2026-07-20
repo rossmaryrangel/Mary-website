@@ -9,7 +9,6 @@ category:
 project_images:
   - /images/04282026 (103).jpg
   - /images/04282026 (85).jpg
-  - /images/642718CE-E747-4310-BABE-7355813ACC36.jpeg
   - /images/projects/bululu/bululu_2.JPG
 project_videos:
   - 'https://www.youtube.com/embed/8f2C_3Q7B7A?si=AJgaNDUZttqFYhTE'
